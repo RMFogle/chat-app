@@ -32,6 +32,13 @@ const LoginForm = () => {
         <div className="wrapper">
             <div className="form">
                 <h1 className="title">Chat Application</h1>
+                <div className="test-info">
+                <h4 className="test-app">To test the app please log in as:</h4>
+                    <ul className="guest-cred">
+                        <li>Username: Guest</li>
+                        <li>Password: 123123</li>
+                    </ul>
+                </div>
                     <form onSubmit={handleSubmit}>
                         <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className="input" placeholder="Username"/>
                         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="input" placeholder="Password"/>

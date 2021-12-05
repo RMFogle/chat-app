@@ -249,6 +249,23 @@
         width: 100%;
         font-size: 2.3em;;
     }
+
+    .test-info {
+        text-align: center;
+    }
+
+    .test-app {
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+
+    .guest-cred {
+        display: inline-block;
+        text-align: center;
+        color: white;
+        margin-bottom: 30px;
+    }
     
     .button {
         border-radius: 4px;
