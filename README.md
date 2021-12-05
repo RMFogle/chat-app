@@ -20,7 +20,11 @@ Here is a working live demo:
 - Admin can create chats.
 - All users can send messages and upload/share images. 
 
+## Bugs: 
+- Data lags or doesn't update when switching between chat boards. This occurs inconsistantly.
+
 ## Roadmap: 
+- Hide projectID in .env file. Change string to process.env.
 - Add JWT Login with Firebase. 
 - Add social authentication, Google Login and Facebook Login. 
 - Allow all users to edit their own messages. 
