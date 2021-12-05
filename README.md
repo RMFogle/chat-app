@@ -4,11 +4,11 @@
 Here is a working live demo: https://chat-app-personal.netlify.app/
 
 Test app by logging in as: 
-Username: Guest 
-Password: 123123
+- Username: Guest 
+- Password: 123123
 
 You can logout by: 
-Right click --> dropdown menu --> scroll down to inspect --> Application --> Localstorage --> Right click --> clear. Refresh page should reset to login window. 
+- Right click --> dropdown menu --> scroll down to inspect --> Application --> Localstorage --> Right click --> clear. Refresh page should reset to login window. 
 
 ## Motivation 
 - I wanted to learn the basics on how to build a chat app and came across npm package react-chat-engine. After reading the documentation and doing some research I was able to build my first chat app. 
